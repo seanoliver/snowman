@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for reaching max incorrect guesses matches snapshot 1`] = `
+<div>
+  <div
+    class="Snowman"
+  >
+    <img
+      alt="2"
+      src="[object Object]"
+    />
+    <p
+      class="Snowman-nWrong"
+    >
+      Number wrong: 
+      2
+    </p>
+    <p
+      class="Snowman-word"
+    >
+      _
+      _
+      _
+      _
+      _
+    </p>
+  </div>
+</div>
+`;
