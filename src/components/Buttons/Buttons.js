@@ -6,10 +6,9 @@ function Buttons({ letters, guessedLetters, clickButton }) {
 		<div className="Buttons">
 			{letters.map(letter => (
 				<Button
-					key={letter}
-					value={letter}
-					onClick={clickButton}
-					disabled={guessedLetters.has(letter)}
+					ltr={letter}
+					clickButton={clickButton}
+					disabled={guessedLetters}
 				/>
 			))}
 		</div>

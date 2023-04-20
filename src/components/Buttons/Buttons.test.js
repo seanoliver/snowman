@@ -4,7 +4,7 @@ import { render, debug, fireEvent } from '@testing-library/react';
 
 const ALPHA = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
-it('renders the page (smoke test)', () => {
+it('renders the component (smoke test)', () => {
 	const { container, debug } = render(
 		<Buttons
 			letters={ALPHA}

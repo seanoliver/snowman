@@ -1,0 +1,10 @@
+.Button {
+    width: auto;
+    align-self: flex-start;
+
+}
+
+.Button-btn {
+    width: auto;
+    display:inline-block;
+}
