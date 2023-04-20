@@ -17,6 +17,7 @@ describe("tests for reaching max incorrect guesses", function () {
 
   it("stops showing button area after nWrong reaches maxGuesses", function () {
     const container = createContainer();
+    expect(container.querySelector('.Snowman-buttons')).toBeInTheDocument();
     //fire off 2 btns
     const xBtn = container.querySelector('button[value="x"]');
     const yBtn = container.querySelector('button[value="y"]');

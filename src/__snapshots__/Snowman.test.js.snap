@@ -5,25 +5,28 @@ exports[`tests for reaching max incorrect guesses matches snapshot 1`] = `
   <div
     class="Snowman"
   >
-    <img
-      alt="2"
-      src="[object Object]"
-    />
-    <p
-      class="Snowman-nWrong"
-    >
-      Number wrong: 
-      2
-    </p>
-    <p
-      class="Snowman-word"
-    >
-      _
-      _
-      _
-      _
-      _
-    </p>
+    <div>
+      <img
+        alt="2"
+        src="[object Object]"
+      />
+      <p
+        class="Snowman-nWrong"
+      >
+        Number wrong: 
+        2
+      </p>
+      <p
+        class="Snowman-word"
+      >
+        apple
+      </p>
+      <p
+        class="Snowman-lose"
+      >
+        You lose!
+      </p>
+    </div>
   </div>
 </div>
 `;
